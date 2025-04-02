@@ -1,0 +1,73 @@
+.resume-section {
+    padding: 50px 20px;
+
+    h4 {
+        margin-bottom: 15px;
+    }
+}
+
+.resume-custom-bullet {
+    position: relative;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        border: 2px solid var(--theme-color);
+        background-color: var(--background-color);
+        position: absolute;
+        left: -29px;
+        top: 0;
+    }
+}
+
+.resume-main-wrapper {
+    padding-left: 20px;
+    position: relative;
+
+    &::before {
+        content: '';
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--theme-color);
+    }
+
+    &.resume-custom-bullet::after {
+        left: -9px;
+    }
+
+    h5 {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: var(--resume-head-color);
+        line-height: 1;
+    }
+
+    .reume-desciption {
+        font-style: italic;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .resume-bullet-points {
+        list-style: circle;
+        padding-left: 20px;
+
+        li {
+            margin-bottom: 10px;
+
+            p {
+                font-size: 13px;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.admin-wrapper {
+    transform: scale(0);
+    animation: zoomIn 0.8s linear forwards;
+}
+
+.todo-list-table {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.add-item-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

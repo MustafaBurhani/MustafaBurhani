@@ -1,0 +1,36 @@
+.copyright-section {
+    padding: 15px 0px;
+    margin-top: 20px;
+    position: relative;
+
+    &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: var(--theme-color);
+        opacity: 0.2;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    p {
+        margin-bottom: 0;
+        line-height: 1;
+    }
+
+    .copyright-line {
+        font-size: 13px;
+        margin-bottom: 7px;
+
+        b {
+            padding-top: 2px;
+            padding-right: 2px;
+        }
+    }
+
+    .designed-by-line {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}

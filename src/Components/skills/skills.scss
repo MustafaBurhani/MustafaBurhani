@@ -1,0 +1,35 @@
+.skills-section {
+    margin-top: 50px;
+    padding: 50px 20px;
+    background-color: var(--light-blue-bg-color);
+}
+
+.progress-row {
+    margin-top: 40px;
+
+    &>div {
+        margin-bottom: 20px;
+    }
+
+    .progress-wrapper {
+        .head_perc {
+            p {
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+        }
+
+        .progress-bar {
+            background-color: var(--theme-color);
+            animation: progressBar 1.5s ease-in-out forwards;
+            animation-play-state: paused;
+        }
+    }
+}
+
+.skills-section.active {
+    .progress-bar {
+        animation-play-state: running;
+    }
+}

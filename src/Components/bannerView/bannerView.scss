@@ -1,0 +1,45 @@
+.banner-section {
+    width: 100%;
+    min-height: 500px;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+    .drawer-button {
+        display: none;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: var(--theme-color);
+        border-color: var(--theme-color);
+        color: var(--default-text-color);
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+    }
+
+    .owner-name {
+        font-size: 50px;
+    }
+
+
+
+    .typewriter-text {
+        span {
+            position: relative;
+        }
+
+        span::after {
+            content: '';
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            background-color: var(--theme-color);
+        }
+    }
+}

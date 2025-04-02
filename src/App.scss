@@ -1,0 +1,22 @@
+.main-view {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.sidebar-area {
+    display: flex;
+    width: var(--sidebarWidth);
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.page-area {
+    width: 100%;
+    margin-left: var(--sidebarWidth);
+    transition: var(--transition);
+}

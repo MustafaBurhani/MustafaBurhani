@@ -1,0 +1,47 @@
+.about-section {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.personal-info {
+    margin-top: 50px;
+
+    .owner-picture {
+        height: 300px;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+
+    .owner-details {
+        .col-12 div {
+            position: relative;
+            padding-left: 10px;
+
+            &::after {
+                content: '❯';
+                font-size: 15px;
+                position: absolute;
+                top: 2px;
+                left: -5px;
+                color: var(--theme-color);
+            }
+        }
+    }
+
+    .head {
+        color: var(--default-black-color);
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+
+    .value {
+        word-break: break-all;
+    }
+}
