@@ -1,5 +1,5 @@
 import './About.scss';
-import MustafaBurhani from '../../assets/mustafa-burhani.jpg';
+import MustafaBurhani from '../../assets/mustafa-ai.webp';
 import GlobalVariables from '../../Common/globalVariables';
 
 
