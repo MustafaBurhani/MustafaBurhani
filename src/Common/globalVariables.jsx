@@ -13,6 +13,7 @@ export default class GlobalVariables {
     static ownerSkills = [
         'Flutter Developer',
         'React Developer',
+        'NextJS Developer',
         'Freelancer',
     ];
 
@@ -21,7 +22,7 @@ export default class GlobalVariables {
     static ownerDesignation = "Web & App Developer";
     static ownerTwoLineJobDetail = "Experienced Flutter and React Developer with 4 years of expertise in building high-performance, scalable, and user-friendly applications.";
     static birthday = '20 June, 2001';
-    static age = '23';
+    static age = '25';
     static website = 'https://mustafa-burhani.netlify.app';
     static degree = 'B.Com (Computer Science)';
     static phone = '+917898512820';
@@ -35,10 +36,9 @@ export default class GlobalVariables {
         { name: 'HTML', value: 100 },
         { name: 'CSS', value: 100 },
         { name: 'Bootstrap', value: 100 },
-        { name: 'Javascript', value: 70 },
-        { name: 'Jquery', value: 90 },
-        { name: 'React', value: 80 },
-        { name: 'Flutter', value: 80 },
+        { name: 'Javascript', value: 90 },
+        { name: 'React', value: 90 },
+        { name: 'Flutter', value: 95 },
     ];
 
     // Resume variables
