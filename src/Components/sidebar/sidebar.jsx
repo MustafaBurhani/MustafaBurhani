@@ -3,7 +3,7 @@ import { useContext, useState, useEffect } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
 
-import ProfilePic from '../../assets/mustafa-burhani.jpg';
+import ProfilePic from '../../assets/mustafa-ai.webp';
 
 import ThemeToggle from "../themeToggle/themeToggle";
 import GlobalVariables from "../../Common/globalVariables";
